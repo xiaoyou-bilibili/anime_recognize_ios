@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8948FAFF2A60CAF700246DF2 /* ModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8948FAFE2A60CAF700246DF2 /* ModelManager.swift */; };
+		8948FB012A60CCD400246DF2 /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8948FB002A60CCD400246DF2 /* UIImage.swift */; };
+		8948FB032A60D83A00246DF2 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8948FB022A60D83A00246DF2 /* View.swift */; };
+		89B102E02A81BB62000E83C0 /* KDTree in Frameworks */ = {isa = PBXBuildFile; productRef = 89B102DF2A81BB62000E83C0 /* KDTree */; };
+		89B102E22A81BBB4000E83C0 /* KdTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B102E12A81BBB4000E83C0 /* KdTree.swift */; };
+		89BD18862A71F15500FEBEB1 /* arce_face.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 89BD18852A71F15500FEBEB1 /* arce_face.mlmodel */; };
+		89BD18882A71F75D00FEBEB1 /* SeedData.seed in Resources */ = {isa = PBXBuildFile; fileRef = 89BD18872A71F75D00FEBEB1 /* SeedData.seed */; };
+		89C071F92A660B0700A4014B /* FaceDetection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C071F82A660B0700A4014B /* FaceDetection.swift */; };
+		89C071FB2A6618E700A4014B /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89C071FA2A6618E700A4014B /* Image.swift */; };
+		89CAFA0D2A7342B400F3DF20 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89CAFA0C2A7342B400F3DF20 /* Toast.swift */; };
+		89D924A92A68182100EF72B5 /* AddFace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D924A82A68182100EF72B5 /* AddFace.swift */; };
+		89D924AE2A68258D00EF72B5 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D924AD2A68258D00EF72B5 /* DataManager.swift */; };
+		89D924B42A6832F300EF72B5 /* Setting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D924B32A6832F300EF72B5 /* Setting.swift */; };
+		89D924B72A68347C00EF72B5 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89D924B52A68347C00EF72B5 /* Model.xcdatamodeld */; };
+		89D924BF2A683E2300EF72B5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89D924BE2A683E2300EF72B5 /* Model.swift */; };
+		89EB846B2A60431A00AA7A59 /* anime_recognizeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB846A2A60431A00AA7A59 /* anime_recognizeApp.swift */; };
+		89EB846F2A60431C00AA7A59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EB846E2A60431C00AA7A59 /* Assets.xcassets */; };
+		89EB84722A60431C00AA7A59 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89EB84712A60431C00AA7A59 /* Preview Assets.xcassets */; };
+		89EB847C2A60431C00AA7A59 /* anime_recognizeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB847B2A60431C00AA7A59 /* anime_recognizeTests.swift */; };
+		89EB84862A60431C00AA7A59 /* anime_recognizeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB84852A60431C00AA7A59 /* anime_recognizeUITests.swift */; };
+		89EB84882A60431C00AA7A59 /* anime_recognizeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB84872A60431C00AA7A59 /* anime_recognizeUITestsLaunchTests.swift */; };
+		89EB849A2A60448200AA7A59 /* yolov5.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 89EB84992A60448200AA7A59 /* yolov5.mlmodel */; };
+		89EB849D2A60452700AA7A59 /* ImagePick.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89EB849C2A60452700AA7A59 /* ImagePick.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		89EB84782A60431C00AA7A59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89EB845F2A60431A00AA7A59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89EB84662A60431A00AA7A59;
+			remoteInfo = anime_recognize;
+		};
+		89EB84822A60431C00AA7A59 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89EB845F2A60431A00AA7A59 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89EB84662A60431A00AA7A59;
+			remoteInfo = anime_recognize;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8948FAFE2A60CAF700246DF2 /* ModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelManager.swift; sourceTree = "<group>"; };
+		8948FB002A60CCD400246DF2 /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
+		8948FB022A60D83A00246DF2 /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		89B102E12A81BBB4000E83C0 /* KdTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KdTree.swift; sourceTree = "<group>"; };
+		89BD18852A71F15500FEBEB1 /* arce_face.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = arce_face.mlmodel; sourceTree = "<group>"; };
+		89BD18872A71F75D00FEBEB1 /* SeedData.seed */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SeedData.seed; sourceTree = "<group>"; };
+		89C071F82A660B0700A4014B /* FaceDetection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetection.swift; sourceTree = "<group>"; };
+		89C071FA2A6618E700A4014B /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		89CAFA0C2A7342B400F3DF20 /* Toast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		89D924A82A68182100EF72B5 /* AddFace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFace.swift; sourceTree = "<group>"; };
+		89D924AD2A68258D00EF72B5 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		89D924B32A6832F300EF72B5 /* Setting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Setting.swift; sourceTree = "<group>"; };
+		89D924B62A68347C00EF72B5 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		89D924BE2A683E2300EF72B5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		89EB84672A60431A00AA7A59 /* anime_recognize.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = anime_recognize.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EB846A2A60431A00AA7A59 /* anime_recognizeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anime_recognizeApp.swift; sourceTree = "<group>"; };
+		89EB846E2A60431C00AA7A59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89EB84712A60431C00AA7A59 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		89EB84772A60431C00AA7A59 /* anime_recognizeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anime_recognizeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EB847B2A60431C00AA7A59 /* anime_recognizeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anime_recognizeTests.swift; sourceTree = "<group>"; };
+		89EB84812A60431C00AA7A59 /* anime_recognizeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = anime_recognizeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		89EB84852A60431C00AA7A59 /* anime_recognizeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anime_recognizeUITests.swift; sourceTree = "<group>"; };
+		89EB84872A60431C00AA7A59 /* anime_recognizeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = anime_recognizeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		89EB84992A60448200AA7A59 /* yolov5.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = yolov5.mlmodel; sourceTree = "<group>"; };
+		89EB849C2A60452700AA7A59 /* ImagePick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePick.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89EB84642A60431A00AA7A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89B102E02A81BB62000E83C0 /* KDTree in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EB84742A60431C00AA7A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EB847E2A60431C00AA7A59 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89C071F52A660AB800A4014B /* views */ = {
+			isa = PBXGroup;
+			children = (
+				89C071F82A660B0700A4014B /* FaceDetection.swift */,
+				89D924A82A68182100EF72B5 /* AddFace.swift */,
+				89D924B32A6832F300EF72B5 /* Setting.swift */,
+			);
+			path = views;
+			sourceTree = "<group>";
+		};
+		89C071FC2A66190000A4014B /* extension */ = {
+			isa = PBXGroup;
+			children = (
+				8948FB002A60CCD400246DF2 /* UIImage.swift */,
+				8948FB022A60D83A00246DF2 /* View.swift */,
+				89C071FA2A6618E700A4014B /* Image.swift */,
+			);
+			path = extension;
+			sourceTree = "<group>";
+		};
+		89D924AA2A681CF200EF72B5 /* component */ = {
+			isa = PBXGroup;
+			children = (
+				89CAFA0C2A7342B400F3DF20 /* Toast.swift */,
+			);
+			path = component;
+			sourceTree = "<group>";
+		};
+		89D924AF2A68287700EF72B5 /* db */ = {
+			isa = PBXGroup;
+			children = (
+				89BD18872A71F75D00FEBEB1 /* SeedData.seed */,
+				89D924B52A68347C00EF72B5 /* Model.xcdatamodeld */,
+			);
+			path = db;
+			sourceTree = "<group>";
+		};
+		89EB845E2A60431A00AA7A59 = {
+			isa = PBXGroup;
+			children = (
+				89EB84692A60431A00AA7A59 /* anime_recognize */,
+				89EB847A2A60431C00AA7A59 /* anime_recognizeTests */,
+				89EB84842A60431C00AA7A59 /* anime_recognizeUITests */,
+				89EB84682A60431A00AA7A59 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89EB84682A60431A00AA7A59 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89EB84672A60431A00AA7A59 /* anime_recognize.app */,
+				89EB84772A60431C00AA7A59 /* anime_recognizeTests.xctest */,
+				89EB84812A60431C00AA7A59 /* anime_recognizeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89EB84692A60431A00AA7A59 /* anime_recognize */ = {
+			isa = PBXGroup;
+			children = (
+				89D924AF2A68287700EF72B5 /* db */,
+				89D924AA2A681CF200EF72B5 /* component */,
+				89C071FC2A66190000A4014B /* extension */,
+				89C071F52A660AB800A4014B /* views */,
+				89EB849B2A6044FD00AA7A59 /* tools */,
+				89EB84942A60442900AA7A59 /* model */,
+				89EB846A2A60431A00AA7A59 /* anime_recognizeApp.swift */,
+				89EB846E2A60431C00AA7A59 /* Assets.xcassets */,
+				89EB84702A60431C00AA7A59 /* Preview Content */,
+			);
+			path = anime_recognize;
+			sourceTree = "<group>";
+		};
+		89EB84702A60431C00AA7A59 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				89EB84712A60431C00AA7A59 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		89EB847A2A60431C00AA7A59 /* anime_recognizeTests */ = {
+			isa = PBXGroup;
+			children = (
+				89EB847B2A60431C00AA7A59 /* anime_recognizeTests.swift */,
+			);
+			path = anime_recognizeTests;
+			sourceTree = "<group>";
+		};
+		89EB84842A60431C00AA7A59 /* anime_recognizeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				89EB84852A60431C00AA7A59 /* anime_recognizeUITests.swift */,
+				89EB84872A60431C00AA7A59 /* anime_recognizeUITestsLaunchTests.swift */,
+			);
+			path = anime_recognizeUITests;
+			sourceTree = "<group>";
+		};
+		89EB84942A60442900AA7A59 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				89BD18852A71F15500FEBEB1 /* arce_face.mlmodel */,
+				89EB84992A60448200AA7A59 /* yolov5.mlmodel */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		89EB849B2A6044FD00AA7A59 /* tools */ = {
+			isa = PBXGroup;
+			children = (
+				89EB849C2A60452700AA7A59 /* ImagePick.swift */,
+				8948FAFE2A60CAF700246DF2 /* ModelManager.swift */,
+				89D924AD2A68258D00EF72B5 /* DataManager.swift */,
+				89D924BE2A683E2300EF72B5 /* Model.swift */,
+				89B102E12A81BBB4000E83C0 /* KdTree.swift */,
+			);
+			path = tools;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89EB84662A60431A00AA7A59 /* anime_recognize */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EB848B2A60431C00AA7A59 /* Build configuration list for PBXNativeTarget "anime_recognize" */;
+			buildPhases = (
+				89EB84632A60431A00AA7A59 /* Sources */,
+				89EB84642A60431A00AA7A59 /* Frameworks */,
+				89EB84652A60431A00AA7A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = anime_recognize;
+			packageProductDependencies = (
+				89B102DF2A81BB62000E83C0 /* KDTree */,
+			);
+			productName = anime_recognize;
+			productReference = 89EB84672A60431A00AA7A59 /* anime_recognize.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89EB84762A60431C00AA7A59 /* anime_recognizeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EB848E2A60431C00AA7A59 /* Build configuration list for PBXNativeTarget "anime_recognizeTests" */;
+			buildPhases = (
+				89EB84732A60431C00AA7A59 /* Sources */,
+				89EB84742A60431C00AA7A59 /* Frameworks */,
+				89EB84752A60431C00AA7A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89EB84792A60431C00AA7A59 /* PBXTargetDependency */,
+			);
+			name = anime_recognizeTests;
+			productName = anime_recognizeTests;
+			productReference = 89EB84772A60431C00AA7A59 /* anime_recognizeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89EB84802A60431C00AA7A59 /* anime_recognizeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89EB84912A60431C00AA7A59 /* Build configuration list for PBXNativeTarget "anime_recognizeUITests" */;
+			buildPhases = (
+				89EB847D2A60431C00AA7A59 /* Sources */,
+				89EB847E2A60431C00AA7A59 /* Frameworks */,
+				89EB847F2A60431C00AA7A59 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89EB84832A60431C00AA7A59 /* PBXTargetDependency */,
+			);
+			name = anime_recognizeUITests;
+			productName = anime_recognizeUITests;
+			productReference = 89EB84812A60431C00AA7A59 /* anime_recognizeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89EB845F2A60431A00AA7A59 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					89EB84662A60431A00AA7A59 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					89EB84762A60431C00AA7A59 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 89EB84662A60431A00AA7A59;
+					};
+					89EB84802A60431C00AA7A59 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 89EB84662A60431A00AA7A59;
+					};
+				};
+			};
+			buildConfigurationList = 89EB84622A60431A00AA7A59 /* Build configuration list for PBXProject "anime_recognize" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89EB845E2A60431A00AA7A59;
+			packageReferences = (
+				89B102DE2A81BB62000E83C0 /* XCRemoteSwiftPackageReference "KDTree" */,
+			);
+			productRefGroup = 89EB84682A60431A00AA7A59 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89EB84662A60431A00AA7A59 /* anime_recognize */,
+				89EB84762A60431C00AA7A59 /* anime_recognizeTests */,
+				89EB84802A60431C00AA7A59 /* anime_recognizeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89EB84652A60431A00AA7A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89BD18882A71F75D00FEBEB1 /* SeedData.seed in Resources */,
+				89EB84722A60431C00AA7A59 /* Preview Assets.xcassets in Resources */,
+				89EB846F2A60431C00AA7A59 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EB84752A60431C00AA7A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EB847F2A60431C00AA7A59 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89EB84632A60431A00AA7A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8948FB032A60D83A00246DF2 /* View.swift in Sources */,
+				89CAFA0D2A7342B400F3DF20 /* Toast.swift in Sources */,
+				89EB849A2A60448200AA7A59 /* yolov5.mlmodel in Sources */,
+				89EB849D2A60452700AA7A59 /* ImagePick.swift in Sources */,
+				89D924B72A68347C00EF72B5 /* Model.xcdatamodeld in Sources */,
+				89D924B42A6832F300EF72B5 /* Setting.swift in Sources */,
+				89EB846B2A60431A00AA7A59 /* anime_recognizeApp.swift in Sources */,
+				8948FAFF2A60CAF700246DF2 /* ModelManager.swift in Sources */,
+				89D924A92A68182100EF72B5 /* AddFace.swift in Sources */,
+				89D924BF2A683E2300EF72B5 /* Model.swift in Sources */,
+				89B102E22A81BBB4000E83C0 /* KdTree.swift in Sources */,
+				89D924AE2A68258D00EF72B5 /* DataManager.swift in Sources */,
+				89C071F92A660B0700A4014B /* FaceDetection.swift in Sources */,
+				8948FB012A60CCD400246DF2 /* UIImage.swift in Sources */,
+				89C071FB2A6618E700A4014B /* Image.swift in Sources */,
+				89BD18862A71F15500FEBEB1 /* arce_face.mlmodel in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EB84732A60431C00AA7A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EB847C2A60431C00AA7A59 /* anime_recognizeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89EB847D2A60431C00AA7A59 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89EB84882A60431C00AA7A59 /* anime_recognizeUITestsLaunchTests.swift in Sources */,
+				89EB84862A60431C00AA7A59 /* anime_recognizeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89EB84792A60431C00AA7A59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89EB84662A60431A00AA7A59 /* anime_recognize */;
+			targetProxy = 89EB84782A60431C00AA7A59 /* PBXContainerItemProxy */;
+		};
+		89EB84832A60431C00AA7A59 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89EB84662A60431A00AA7A59 /* anime_recognize */;
+			targetProxy = 89EB84822A60431C00AA7A59 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89EB84892A60431C00AA7A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89EB848A2A60431C00AA7A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89EB848C2A60431C00AA7A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"anime_recognize/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LMU7CVCTX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "anime-recognize-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "动漫人脸识别";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoyou66.anime-recognize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89EB848D2A60431C00AA7A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"anime_recognize/Preview Content\"";
+				DEVELOPMENT_TEAM = 5LMU7CVCTX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "anime-recognize-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "动漫人脸识别";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoyou66.anime-recognize";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89EB848F2A60431C00AA7A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LMU7CVCTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoyou66.anime-recognizeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anime_recognize.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/anime_recognize";
+			};
+			name = Debug;
+		};
+		89EB84902A60431C00AA7A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LMU7CVCTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoyou66.anime-recognizeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/anime_recognize.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/anime_recognize";
+			};
+			name = Release;
+		};
+		89EB84922A60431C00AA7A59 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LMU7CVCTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoyou66.anime-recognizeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = anime_recognize;
+			};
+			name = Debug;
+		};
+		89EB84932A60431C00AA7A59 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5LMU7CVCTX;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.xiaoyou66.anime-recognizeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = anime_recognize;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89EB84622A60431A00AA7A59 /* Build configuration list for PBXProject "anime_recognize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EB84892A60431C00AA7A59 /* Debug */,
+				89EB848A2A60431C00AA7A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EB848B2A60431C00AA7A59 /* Build configuration list for PBXNativeTarget "anime_recognize" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EB848C2A60431C00AA7A59 /* Debug */,
+				89EB848D2A60431C00AA7A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EB848E2A60431C00AA7A59 /* Build configuration list for PBXNativeTarget "anime_recognizeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EB848F2A60431C00AA7A59 /* Debug */,
+				89EB84902A60431C00AA7A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89EB84912A60431C00AA7A59 /* Build configuration list for PBXNativeTarget "anime_recognizeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89EB84922A60431C00AA7A59 /* Debug */,
+				89EB84932A60431C00AA7A59 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		89B102DE2A81BB62000E83C0 /* XCRemoteSwiftPackageReference "KDTree" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Bersaelor/KDTree";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		89B102DF2A81BB62000E83C0 /* KDTree */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 89B102DE2A81BB62000E83C0 /* XCRemoteSwiftPackageReference "KDTree" */;
+			productName = KDTree;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		89D924B52A68347C00EF72B5 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				89D924B62A68347C00EF72B5 /* Model.xcdatamodel */,
+			);
+			currentVersion = 89D924B62A68347C00EF72B5 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 89EB845F2A60431A00AA7A59 /* Project object */;
+}
